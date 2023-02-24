@@ -5,7 +5,7 @@
 }
 
 .login {
-  margin-top: 10vh;
+  margin-top: 6vh;
   height: 9vh;
   width: 27vw;
   text-align: center;
@@ -28,4 +28,11 @@
   border: none;
   color: white;
   border-radius: 1vh;
+}
+
+#clock {
+  position: absolute;
+  font-size: 3vh;
+  right: 1vh;
+  color: rgba(0, 0, 0, 0.6);
 }
