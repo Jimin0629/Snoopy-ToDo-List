@@ -11,7 +11,7 @@
   font-size: 5vh;
 }
 
-@media screen and (min-width:120vh) {
+@media screen and (min-width:154.5vh) {
   #scrsize {
     display: none;
   }
