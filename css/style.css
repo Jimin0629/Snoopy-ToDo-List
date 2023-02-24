@@ -1,6 +1,7 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
 @import "login.css";
+@import "scrsize.css";
 
 body {
   font-family: 'Gaegu', cursive;
