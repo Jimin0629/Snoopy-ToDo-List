@@ -1,7 +1,13 @@
 #quote {
+  position: absolute;
+  top: 59%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 150vh;
+
 }
 
 #quote :first-child {
