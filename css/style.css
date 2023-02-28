@@ -3,6 +3,7 @@
 @import "login.css";
 @import "scrsize.css";
 @import "quotes.css";
+@import "greeting.css";
 
 body {
   font-family: 'Gaegu', cursive;
@@ -22,4 +23,8 @@ input:focus {
   bottom: 0px;
   z-index: -1;
   opacity: 100%;
+}
+
+.hidden {
+  display: none;
 }

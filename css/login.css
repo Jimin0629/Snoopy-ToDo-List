@@ -34,7 +34,7 @@
   font-size: 1.5vh;
 }
 
-#clock {
+.clock {
   position: absolute;
   font-size: 3vh;
   right: 1vh;

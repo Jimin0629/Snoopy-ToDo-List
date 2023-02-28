@@ -1,22 +1,10 @@
-.quote {
-  position: absolute;
-  top: 59%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.greeting {
+  font-size: 6vh;
   display: flex;
-  flex-direction: column;
+  flex-wrap: inherit;
+  justify-content: center;
   align-items: center;
-  width: 150vh;
-
-}
-
-.quote :first-child {
-  margin-top: 75.5vh;
-}
-
-.quote span {
-  font-size: 2.5vh;
-  color: white;
-  background-color: transparent;
+  height: 25vh;
   text-shadow: -0.1vh 0 0.15vh rgb(0, 0, 0), 0.1vh 0 0.15vh black, 0 -0.1vh 0.15vh rgb(0, 0, 0), 0 0.1vh 0.15vh black, -0.1vh -0.1vh 0.15vh black, 0.1vh 0.1vh 0.15vh black, -0.1vh 0.1vh 0.15vh black, 0.1vh -0.1vh 0.15vh black;
+  color: white;
 }
