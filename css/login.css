@@ -14,12 +14,14 @@
   background-color: transparent;
   border: none;
   border-bottom: 0.23vh solid rgba(0, 0, 0, 0.4);
-  color: black;
+  color: white;
+  text-shadow: -0.1vh 0 0 rgb(0, 0, 0), 0.1vh 0 0 black, 0 -0.1vh 0 rgb(0, 0, 0), 0 0.1vh 0 black, -0.1vh -0.1vh 0 black, 0.1vh 0.1vh 0 black, -0.1vh 0.1vh 0 black, 0.1vh -0.1vh 0 black;
   margin-bottom: 1.7vh;
 }
 
 .login::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  text-shadow: -0.1vh 0 0 rgb(0, 0, 0), 0.1vh 0 0 black, 0 -0.1vh 0 rgb(0, 0, 0), 0 0.1vh 0 black, -0.1vh -0.1vh 0 black, 0.1vh 0.1vh 0 black, -0.1vh 0.1vh 0 black, 0.1vh -0.1vh 0 black;
+  color: white;
 }
 
 .login-button {
@@ -28,6 +30,8 @@
   border: none;
   color: white;
   border-radius: 1vh;
+  font-family: 'Gaegu', cursive;
+  font-size: 1.5vh;
 }
 
 #clock {
