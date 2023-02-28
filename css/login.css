@@ -7,13 +7,14 @@
 .login {
   margin-top: 6vh;
   height: 9vh;
-  width: 27vw;
+  width: 50vh;
   text-align: center;
   font-family: 'Gaegu', cursive;
   font-size: 5vh;
   background-color: transparent;
   border: none;
   border-bottom: 0.23vh solid rgba(0, 0, 0, 0.4);
+  : 10vh;
   color: white;
   text-shadow: -0.1vh 0 0 rgb(0, 0, 0), 0.1vh 0 0 black, 0 -0.1vh 0 rgb(0, 0, 0), 0 0.1vh 0 black, -0.1vh -0.1vh 0 black, 0.1vh 0.1vh 0 black, -0.1vh 0.1vh 0 black, 0.1vh -0.1vh 0 black;
   margin-bottom: 1.7vh;
