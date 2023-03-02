@@ -1,12 +1,14 @@
 @import "reset.css";
-@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
 @import "login.css";
 @import "scrsize.css";
 @import "quotes.css";
 @import "greeting.css";
+@import "font.css";
+@import "todo.css";
 
 body {
   font-family: 'Gaegu', cursive;
+  ;
 }
 
 input:focus {
@@ -23,8 +25,4 @@ input:focus {
   bottom: 0px;
   z-index: -1;
   opacity: 100%;
-}
-
-.hidden {
-  display: none;
 }

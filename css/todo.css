@@ -1,0 +1,36 @@
+#todo-form {
+  display: flex;
+  justify-content: center;
+}
+
+#todo-input {
+  text-align: center;
+  font-family: 'Gaegu', cursive;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.23vh solid rgba(0, 0, 0, 0.4);
+  width: 20vh;
+  color: white;
+  text-shadow: -0.1vh 0 0 rgb(0, 0, 0), 0.1vh 0 0 black, 0 -0.1vh 0 rgb(0, 0, 0), 0 0.1vh 0 black, -0.1vh -0.1vh 0 black, 0.1vh 0.1vh 0 black, -0.1vh 0.1vh 0 black, 0.1vh -0.1vh 0 black;
+  margin-bottom: 1.3vh;
+  font-size: 3vh;
+}
+
+#todo-list {
+  font-size: 2.5vh;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 0.5vh;
+  text-shadow: -0.1vh 0 0 rgb(0, 0, 0), 0.1vh 0 0 black, 0 -0.1vh 0 rgb(0, 0, 0), 0 0.1vh 0 black, -0.1vh -0.1vh 0 black, 0.1vh 0.1vh 0 black, -0.1vh 0.1vh 0 black, 0.1vh -0.1vh 0 black;
+  color: white;
+}
+
+#todo-input::placeholder {
+  text-shadow: -0.1vh 0 0 rgb(0, 0, 0), 0.1vh 0 0 black, 0 -0.1vh 0 rgb(0, 0, 0), 0 0.1vh 0 black, -0.1vh -0.1vh 0 black, 0.1vh 0.1vh 0 black, -0.1vh 0.1vh 0 black, 0.1vh -0.1vh 0 black;
+  color: white;
+}

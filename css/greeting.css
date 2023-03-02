@@ -4,7 +4,7 @@
   flex-wrap: inherit;
   justify-content: center;
   align-items: center;
-  height: 25vh;
+  height: 20vh;
   text-shadow: -0.1vh 0 0.15vh rgb(0, 0, 0), 0.1vh 0 0.15vh black, 0 -0.1vh 0.15vh rgb(0, 0, 0), 0 0.1vh 0.15vh black, -0.1vh -0.1vh 0.15vh black, 0.1vh 0.1vh 0.15vh black, -0.1vh 0.1vh 0.15vh black, 0.1vh -0.1vh 0.15vh black;
   color: white;
 }

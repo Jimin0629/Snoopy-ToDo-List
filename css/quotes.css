@@ -1,17 +1,14 @@
 .quote {
-  position: absolute;
-  top: 59%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   display: flex;
+  justify-content: end;
   flex-direction: column;
   align-items: center;
-  width: 150vh;
-
+  height: 74vh;
 }
 
 .quote :first-child {
-  margin-top: 75.5vh;
+  height: auto;
+  width: auto;
 }
 
 .quote span {
